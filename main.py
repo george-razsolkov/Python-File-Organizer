@@ -4,8 +4,8 @@ from FileHandler import FileEventHander
 import time
 
 # TODO ADD CONFIG PARSER AND ADD THESE INTO THE CONFIG
-tracked_folder = "/home/georgi/personals/from_folder"
-files_moved_to = "/home/georgi/personals/to_folder"
+tracked_folder = "${FOLDER TO TRACK FOR FILES}"
+files_moved_to = "${FOLDER TO MOVE THE FILES TO AND CREATE SUBDIRS}"
 observeRecursive = True
 
 handler = FileEventHander(tracked_folder, files_moved_to)
