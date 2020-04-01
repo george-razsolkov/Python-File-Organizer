@@ -10,4 +10,5 @@ You can play around to split the images into subfolders by date or smth
 
 Dependancies:
   pip install watchdog
+  
   pip install python-magic
